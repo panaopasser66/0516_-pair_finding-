@@ -1,0 +1,12 @@
+*.tif
+*.tiff
+outputs/
+data/
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+__pycache__/
+*.py[cod]
+
