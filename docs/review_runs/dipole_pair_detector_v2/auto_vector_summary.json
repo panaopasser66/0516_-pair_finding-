@@ -1,0 +1,14 @@
+{
+  "initial_target_dx": 30.0,
+  "initial_target_dy": 0.0,
+  "estimated_target_dx": 28.998746871948242,
+  "estimated_target_dy": 0.33473101258277893,
+  "candidate_vector_count": 192,
+  "dominant_bin_count": 3,
+  "neighboring_bin_count": 31,
+  "confidence": 0.16145833333333334,
+  "confidence_warning": "Dominant unconstrained vector cluster confidence is low; used the provided target vector as a weak prior. Manual seed calibration is still recommended.",
+  "bin_size_px": 2.0,
+  "distance_min_px": 15.0,
+  "distance_max_px": 45.0
+}

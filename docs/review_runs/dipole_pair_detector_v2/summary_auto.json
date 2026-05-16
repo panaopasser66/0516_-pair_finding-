@@ -1,0 +1,61 @@
+{
+  "mode": "auto",
+  "input_file": "Result_DIVDE.tif",
+  "seed_pairs": null,
+  "target_vector": {
+    "dx": 28.998746871948242,
+    "dy": 0.33473101258277893
+  },
+  "positive_blob_count": 196,
+  "negative_blob_count": 202,
+  "matched_pair_count": 31,
+  "confidence_counts": {
+    "high_confidence": 10,
+    "medium_confidence": 10,
+    "low_confidence": 11
+  },
+  "seed_pair_ranks": [],
+  "image_stats": {
+    "input_path": "Result_DIVDE.tif",
+    "original_shape": [
+      1544,
+      2048
+    ],
+    "loaded_shape": [
+      1544,
+      2048
+    ],
+    "original_dtype": "float32",
+    "working_dtype": "float32",
+    "min": -57.0,
+    "max": 57.0,
+    "mean": 4.191237926483154,
+    "std": 2.9373257160186768
+  },
+  "preprocess_stats": {
+    "preprocess_mode": "median_centered",
+    "image_median": 4.0,
+    "highpass_sigma": 15.0,
+    "smooth_sigma": 1.0,
+    "robust_mad_scale": 1.7236846056461332,
+    "z_min": -28.166316986083984,
+    "z_max": 26.782533645629883,
+    "z_mean": -1.5441617429168275e-10,
+    "z_std": 1.0281665325164795
+  },
+  "refined_seed_pairs": [],
+  "auto_vector_summary": {
+    "initial_target_dx": 30.0,
+    "initial_target_dy": 0.0,
+    "estimated_target_dx": 28.998746871948242,
+    "estimated_target_dy": 0.33473101258277893,
+    "candidate_vector_count": 192,
+    "dominant_bin_count": 3,
+    "neighboring_bin_count": 31,
+    "confidence": 0.16145833333333334,
+    "confidence_warning": "Dominant unconstrained vector cluster confidence is low; used the provided target vector as a weak prior. Manual seed calibration is still recommended.",
+    "bin_size_px": 2.0,
+    "distance_min_px": 15.0,
+    "distance_max_px": 45.0
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "mode": "manual",
+  "input_file": "Result_DIVDE.tif",
+  "seed_pairs": "1519,1290,1537,1290;1638,688,1664,680",
+  "target_vector": {
+    "dx": 28.5,
+    "dy": -0.5
+  },
+  "positive_blob_count": 196,
+  "negative_blob_count": 202,
+  "matched_pair_count": 32,
+  "confidence_counts": {
+    "high_confidence": 12,
+    "medium_confidence": 9,
+    "low_confidence": 11
+  },
+  "seed_pair_ranks": [
+    {
+      "seed_pair_id": 1,
+      "rank": 1,
+      "center_match_error": 0.9419440031159126,
+      "kept_near_top10": true
+    },
+    {
+      "seed_pair_id": 2,
+      "rank": 3,
+      "center_match_error": 4.025938257088346,
+      "kept_near_top10": true
+    }
+  ],
+  "image_stats": {
+    "input_path": "Result_DIVDE.tif",
+    "original_shape": [
+      1544,
+      2048
+    ],
+    "loaded_shape": [
+      1544,
+      2048
+    ],
+    "original_dtype": "float32",
+    "working_dtype": "float32",
+    "min": -57.0,
+    "max": 57.0,
+    "mean": 4.191237926483154,
+    "std": 2.9373257160186768
+  },
+  "preprocess_stats": {
+    "preprocess_mode": "median_centered",
+    "image_median": 4.0,
+    "highpass_sigma": 15.0,
+    "smooth_sigma": 1.0,
+    "robust_mad_scale": 1.7236846056461332,
+    "z_min": -28.166316986083984,
+    "z_max": 26.782533645629883,
+    "z_mean": -1.5441617429168275e-10,
+    "z_std": 1.0281665325164795
+  },
+  "refined_seed_pairs": [
+    {
+      "seed_pair_id": 1,
+      "seed1_x": 1519.0,
+      "seed1_y": 1290.0,
+      "seed2_x": 1537.0,
+      "seed2_y": 1290.0,
+      "refined1_x": 1521.0,
+      "refined1_y": 1290.0,
+      "refined2_x": 1548.0,
+      "refined2_y": 1290.0,
+      "polarity1": "positive",
+      "polarity2": "negative",
+      "vector_dx": 27.0,
+      "vector_dy": 0.0,
+      "distance": 27.0,
+      "peak1_z": 26.782533645629883,
+      "peak2_z": -28.166316986083984
+    },
+    {
+      "seed_pair_id": 2,
+      "seed1_x": 1638.0,
+      "seed1_y": 688.0,
+      "seed2_x": 1664.0,
+      "seed2_y": 680.0,
+      "refined1_x": 1636.0,
+      "refined1_y": 686.0,
+      "refined2_x": 1666.0,
+      "refined2_y": 685.0,
+      "polarity1": "negative",
+      "polarity2": "positive",
+      "vector_dx": 30.0,
+      "vector_dy": -1.0,
+      "distance": 30.01666203960727,
+      "peak1_z": -4.190565586090088,
+      "peak2_z": 5.472156524658203
+    }
+  ],
+  "auto_vector_summary": null
+}
